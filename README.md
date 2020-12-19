@@ -1,6 +1,8 @@
 # Observability Demo
 This demo can be deployed in Google Cloud. The scripts can be run in a sequence starting from `1-start.sh`
 
+Youtube link is: https://www.youtube.com/watch?v=GyqMx-XrKWc
+
 - `1-start.sh`- Sets up the envirobment with Google Cloud login. Change the project id and cluster name to your project and your Kubernetes cluster.
 - `2-apply-config.sh`- Deploys the `distributed-trace.yml` in the cluster
 - `3-linkerd-setup.sh`- Sets up Linkerd in the cluster
